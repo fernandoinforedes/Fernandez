@@ -6,7 +6,7 @@
  * Time: 21:32
  */
 
-class Soma {
+class Sum {
 
     private $numberOne;
     private $numberTwo;
@@ -31,6 +31,11 @@ class Soma {
     public function getNumberTwo()
     {
         return $this->numberTwo;
+    }
+
+    public function resultSum()
+    {
+        return $this->numberOne + $this->numberTwo;
     }
 
 }
